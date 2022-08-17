@@ -1,0 +1,133 @@
+
+#bg-img{
+	background: url(https://hosting.renderforestsites.com/images/5699226/281980/7595e06b24f03f53d0acbf6ca17ef89a.jpg);
+	background-size: 100vw 100vh;
+	max-width: 100%;
+    height: auto;
+}
+.big-box{
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.box1{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+}
+
+a.button1{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	background-color: black;
+	width: 30%;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+a.button2{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	border: 1px solid;
+	border-color: black;
+	background-color: transparent;
+	width: 30%;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.heading-1{
+    font-weight: 700;
+    font-size: 52.8px;
+    margin-bottom: 0.3em;
+    text-align: center;
+}
+
+
+.socials{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 15px;
+}
+
+.foot{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 20px 0px;
+}
+
+.box{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.box h3{
+	font-size: 25.2px;
+	padding-top: 20px;
+}
+.box p{
+	font-size: 17.2px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+}
+.box img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.m20-p10{
+	margin: 20px 50px;
+	padding: 30px 5px;
+}
+ 
+.h3{
+	font-size: 35px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.hair,
+.skin,
+.facial{
+	display: flex;
+	align-items: center;
+    text-align: center;
+    margin: 40px 0px 0px;
+    flex-direction: column;
+	text-align: justify;
+}
+
+h2{
+	font-size: 54px;
+	color: black;
+}
+h4{
+	font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.desc{
+	line-height: 1.4;
+	margin-top: 20px;
+	font-weight: 300;
+}
+
+.booking-link{
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+    font-size: 16px;
+}

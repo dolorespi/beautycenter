@@ -1,0 +1,32 @@
+{
+  "name": "lolibeautycenter.com",
+  "version": "1.0.0",
+  "description": "LOLI Beauty Center provides numerous services to satisfy your inner princess and let your inner beauty reflect on the outside",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolorespi/beautycenter.git"
+  },
+  "keywords": [
+    "beauty",
+    "center",
+    "loli",
+    "skin",
+    "hair-care",
+    "facials"
+  ],
+  "author": "loli pineyro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dolorespi/beautycenter/issues"
+  },
+  "homepage": "https://github.com/dolorespi/beautycenter#readme",
+  "dependencies": {
+    "sass": "^1.54.4"
+  }
+}
