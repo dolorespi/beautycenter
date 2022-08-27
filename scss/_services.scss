@@ -1,0 +1,42 @@
+.box-services{
+	position: relative;
+    width: 100vw;
+    margin: 15px 0px 0px 0px;
+    padding: 10px 15px 50px 15px;
+    box-sizing: border-box;
+}
+ 
+.img-services{
+	display: flex;
+	flex-direction: column;
+}
+
+.services{
+	width: 100%;
+}
+.services td{
+	font-weight: 600;
+	font-size: 25px;
+	border-bottom: 1.5px dotted rgb(40, 39, 39);
+	line-height: 2;
+}
+
+.prices{
+	text-align: right;
+	color: white;
+}
+
+.title-services{
+	font-size: 30px;
+}
+
+.serVices h4{
+	font-size: 30px;
+	font-weight: 600;
+	color: rgb(218, 9, 71);
+}
+
+.Services{
+	width: 100%;
+	margin: 20px 0px;
+}

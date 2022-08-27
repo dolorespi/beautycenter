@@ -1,0 +1,38 @@
+.team{
+	display: block;
+    width: 100%;
+}
+.carousel-item img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+.name-t{
+	font-family: Poppins;
+    font-weight: 700;
+    font-size: 19.2px;
+    margin-bottom: 0.3em;
+    color: map-get($colors, "white");
+}
+.thin{
+	font-family: Poppins;
+    font-weight: 300;
+    font-size: 13.6px;
+    line-height: 1.4;
+    color: map-get($colors, "white");
+}
+.quote{
+	font-family: Poppins;
+    font-weight: 300;
+    font-size: 17.2px;
+    line-height: 1.4;
+    color: map-get($colors, "white");
+}
+.t-t{
+	font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+    color: map-get($colors, "black");
+    text-align: center;
+}

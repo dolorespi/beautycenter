@@ -1,9 +1,8 @@
 
 #bg-img{
 	background: url(https://hosting.renderforestsites.com/images/5699226/281980/7595e06b24f03f53d0acbf6ca17ef89a.jpg);
-	background-size: 100vw 100vh;
+	background-size: 100vw 150vh;
 	max-width: 100%;
-    height: auto;
 }
 .big-box{
 	padding-bottom: 30px;
@@ -56,15 +55,20 @@ a.button2{
 
 .socials{
 	display: flex;
-	justify-content: space-evenly;
-	padding-top: 15px;
+	-webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    margin-top: 30px;
 }
 
 .foot{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	margin: 20px 0px;
+	margin: 20px 0px 0px 0px;
 }
 
 .box{
@@ -99,15 +103,16 @@ a.button2{
 	font-weight: 700;
 }
 
-.hair,
-.skin,
-.facial{
+@mixin services{
 	display: flex;
-	align-items: center;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
     text-align: center;
     margin: 40px 0px 0px;
-    flex-direction: column;
-	text-align: justify;
+}
+.serVices{
+	@include services;
 }
 
 h2{
@@ -119,15 +124,32 @@ h4{
     font-weight: 600;
     margin-top: 10px;
 }
-.desc{
+
+@mixin description{
 	line-height: 1.4;
 	margin-top: 20px;
-	font-weight: 300;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 0px 50px;
+    margin: 20px 50px;
+}
+.desc{
+ @include description;	
 }
 
 .booking-link{
 	text-decoration: none;
 	color: black;
-	font-weight: 500;
-    font-size: 16px;
+	font-weight: 600;
+    font-size: 22px;
+}
+
+.sale{
+	padding: 30px 0px 10px 0px;
+}
+
+.partnerships{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

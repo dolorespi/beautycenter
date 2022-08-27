@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 #bg-img {
   background: url(https://hosting.renderforestsites.com/images/5699226/281980/7595e06b24f03f53d0acbf6ca17ef89a.jpg);
-  background-size: 100vw 100vh;
+  background-size: 100vw 150vh;
   max-width: 100%;
-  height: auto;
 }
 
 .big-box {
@@ -56,15 +56,20 @@ a.button2 {
 
 .socials {
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 15px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-top: 20px;
+  margin-top: 30px;
 }
 
 .foot {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 20px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
 .box {
@@ -102,15 +107,13 @@ a.button2 {
   font-weight: 700;
 }
 
-.hair,
-.skin,
-.facial {
+.serVices {
   display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
   align-items: center;
   text-align: center;
   margin: 40px 0px 0px;
-  flex-direction: column;
-  text-align: justify;
 }
 
 h2 {
@@ -127,18 +130,35 @@ h4 {
 .desc {
   line-height: 1.4;
   margin-top: 20px;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0px 50px;
+  margin: 20px 50px;
 }
 
 .booking-link {
   text-decoration: none;
   color: black;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.sale {
+  padding: 30px 0px 10px 0px;
+}
+
+.partnerships {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #f-poppins {
   font-family: "Poppins", sans-serif;
+}
+
+#f-monts {
+  font-family: "Montserrat", sans-serif;
 }
 
 .c-pink {
@@ -157,12 +177,360 @@ h4 {
   color: white;
 }
 
+.c-dark-grey {
+  color: rgb(40, 39, 39);
+}
+
 .bg-pink {
   background-color: rgb(218, 9, 71);
 }
 
 .bg-black {
   background-color: black;
+}
+
+.hover-black a:hover {
+  color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  .box {
+    display: block;
+    padding-top: 20px;
+  }
+  .box img {
+    float: left;
+    height: 70vh;
+  }
+  .box p {
+    padding-bottom: 15px;
+  }
+  .foot {
+    flex-direction: column-reverse;
+  }
+  .partnerships {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .sale {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+  }
+  .box-services {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 5px;
+  }
+  .Services {
+    width: 50%;
+  }
+  .img-services {
+    width: 50%;
+    height: auto;
+  }
+  .services td {
+    padding-bottom: 123.5px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .desc {
+    padding: 0px 25px;
+    margin: 20px 25px;
+  }
+  .heading-2 {
+    text-align: left;
+  }
+  .location {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media only screen and (min-width: 790px) {
+  .box {
+    height: 81vh;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .box {
+    height: 75vh;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .serVices {
+    margin: 50px 20px;
+    display: table-cell;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .carousel-item img {
+    height: 1000px;
+  }
+}
+.box-services {
+  position: relative;
+  width: 100vw;
+  margin: 15px 0px 0px 0px;
+  padding: 10px 15px 50px 15px;
+  box-sizing: border-box;
+}
+
+.img-services {
+  display: flex;
+  flex-direction: column;
+}
+
+.services {
+  width: 100%;
+}
+
+.services td {
+  font-weight: 600;
+  font-size: 25px;
+  border-bottom: 1.5px dotted rgb(40, 39, 39);
+  line-height: 2;
+}
+
+.prices {
+  text-align: right;
+  color: white;
+}
+
+.title-services {
+  font-size: 30px;
+}
+
+.serVices h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(218, 9, 71);
+}
+
+.Services {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.heading-2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 20px 25px;
+}
+
+.gallery {
+  animation: fade-in 5s;
+}
+
+#bg-imagen {
+  background: url(https://i.pinimg.com/564x/00/32/ba/0032baf3df9482b949a5bc142e0319c6.jpg);
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  padding: 20px;
+}
+
+.bookings {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.enters {
+  padding: 5px 0px 5px 12px;
+}
+
+.heading-3 {
+  text-align: center;
+  color: rgb(218, 9, 71);
+  margin: 30px 10px;
+  font-size: 32px;
+}
+
+.testbox {
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-top: 5px solid rgb(0, 0, 0);
+}
+
+.date-time {
+  width: calc(50% - 8px);
+}
+
+.item p {
+  color: rgb(218, 9, 71);
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.item input {
+  appearance: none;
+  height: 50px;
+  min-width: 260px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgb(218, 9, 71);
+  border: 1px solid rgba(218, 9, 71, 0.3);
+  caret-color: rgb(218, 9, 71);
+  outline: none;
+  padding: 11.25px 12px;
+}
+
+.item textarea {
+  appearance: none;
+  height: 50px;
+  min-width: 260px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgb(218, 9, 71);
+  border: 1px solid rgba(218, 9, 71, 0.3);
+  caret-color: rgb(218, 9, 71);
+  outline: none;
+  padding: 11.25px 12px;
+  min-height: 100px;
+}
+
+.item select {
+  height: 50px;
+  min-width: 260px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgb(218, 9, 71);
+  border: 1px solid rgba(218, 9, 71, 0.3);
+  caret-color: rgb(218, 9, 71);
+  outline: none;
+  padding: 11.25px 12px;
+  padding: 0px 15px;
+  height: 50px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  padding: 10.25px 12px;
+  color: rgb(54, 63, 90);
+  width: 100%;
+}
+
+.btn-block {
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.btn-block button {
+  max-width: 300px;
+  border-radius: 0px;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  background: no-repeat rgb(0, 0, 0);
+  border: 1px solid transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0px 40px;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  word-break: initial;
+  outline: none;
+}
+
+.location {
+  padding-top: 20px;
+  position: inherit;
+  z-index: 0;
+  left: 0px;
+  top: 0px;
+  height: 30vh;
+  width: 98.5vw;
+  padding: 0px;
+  border-width: 0px;
+  margin: 0px;
+  cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.team {
+  display: block;
+  width: 100%;
+}
+
+.carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.name-t {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 19.2px;
+  margin-bottom: 0.3em;
+  color: white;
+}
+
+.thin {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 13.6px;
+  line-height: 1.4;
+  color: white;
+}
+
+.quote {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 17.2px;
+  line-height: 1.4;
+  color: white;
+}
+
+.t-t {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,19 +1,32 @@
+$colors:(
+	"pink": rgb(218, 9, 71),
+	"white": white,
+	"black": black,
+	"dark-grey": rgb(40, 39, 39)
+);
+
 .c-pink{
-	color: rgb(218, 9, 71);
+	color: map-get($colors, "pink");
 }
 .c-white{
-	color: white;
+	color: map-get($colors, "white");
 }
 .c-black{
-	color: black;
+	color: map-get($colors, "black");
 }
 .txt-white{
-	color: white;
+	color: map-get($colors, "white");
 }
-
+.c-dark-grey{
+	color: map-get($colors, "dark-grey");
+}
 .bg-pink{
 	background-color: rgb(218, 9, 71);
 }
 .bg-black{
 	background-color: black;
+}
+
+.hover-black a:hover{
+	color: map-get($colors, "black");
 }

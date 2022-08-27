@@ -1,3 +1,82 @@
-@media only screen and (min-width: 768px){
+//media queries
 
+@media only screen and (min-width: 768px){
+	.box{
+		display: block;
+		padding-top: 20px; 
+	}
+	.box img{
+		float: left;
+		height: 70vh;
+
+	}
+	.box p{
+		padding-bottom: 15px;
+	}
+	.foot{
+		flex-direction: column-reverse;
+	}
+	.partnerships{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.sale{
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 98%;
+	}
+	.box-services{
+		display: flex;
+		flex-direction: row-reverse;
+		padding-bottom: 5px
+	}
+	.Services{
+		width: 50%
+	}
+	.img-services{
+		width: 50%;
+		height: auto;
+	}
+	.services td{
+		padding-bottom: 123.5px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.desc{
+		padding: 0px 25px;
+		margin: 20px 25px;
+	}
+	.heading-2{
+		text-align: left;
+	}
+	.location{
+		display: flex;
+		justify-content: flex-end;
+	}
 }
+
+@media only screen and (min-width: 790px){
+	.box{
+		height: 81vh;
+	}
+}
+@media only screen and (min-width: 820px){
+	.box{
+		height: 75vh;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	.serVices{
+		margin: 50px 20px;
+	    display: table-cell;
+	    padding-top: 30px;	
+	    padding-bottom: 20px; 
+	}
+	.carousel-item img{
+		height: 1000px;
+	}
+}
+
